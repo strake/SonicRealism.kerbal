@@ -5,7 +5,7 @@ Modifies the in-flight sound to be more realistic:
 * Mutes the sound by atmospheric density — the thinner the air, the quieter the sound
 * Has no effect in IVA mode
 
-The following shell scripts all assume `KSP_ROOT` is the directory where KSP is installed.
+The following shell scripts all assume `$KSP_ROOT` is the directory where KSP is installed.
 
 ## Building
 
@@ -16,7 +16,7 @@ The following shell scripts all assume `KSP_ROOT` is the directory where KSP is 
 ## Installing
 
 ```sh
-cp SonicRealism.dll $KSP_ROOT/Plugins/
+./install.sh
 ```
 
 ## Feature Goals
