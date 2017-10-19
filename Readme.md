@@ -18,3 +18,7 @@ The following shell scripts all assume `KSP_ROOT` is the directory where KSP is 
 ```sh
 cp SonicRealism.dll $KSP_ROOT/Plugins/
 ```
+
+## Feature Goals
+
+* Per-frequency Stokes attenuation filter, including effect of airspeed on effective path length
