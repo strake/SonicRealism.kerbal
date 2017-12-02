@@ -40,7 +40,7 @@ class SonicRealism : MonoBehaviour {
 			var dθByDφ = 1f + machCosΦ / Mathf.Sqrt(1f - Vector3.Dot(mach, mach) + machCosΦ * machCosΦ);
 			var body = vessel.mainBody;
 			var ρ_0 = body.GetDensity(body.GetPressure(0), body.GetTemperature(0));
-			return inShockCone ? dθByDφ * (float)(ρ/ρ_0) : 0f;
+			return inShockCone ? dθByDφ : 0f;
 		}
 	} }
 }
